@@ -6,39 +6,7 @@ body, html {
   box-sizing: border-box;
 }
 
-/* Top Bar */
-.top-bar {
-  background-color: #f8f9fa;
-  padding: 0.5rem 2rem;
-  border-bottom: 1px solid #ddd;
-  font-size: 0.9rem;
-}
 
-.top-bar .row {
-  align-items: center;
-}
-
-.top-bar small {
-  color: #6c757d;
-}
-
-.top-bar .top-bar-contact {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.top-bar-contact span {
-  margin-left: 1.5rem;
-  color: #6c757d;
-  display: flex;
-  align-items: center;
-}
-
-.top-bar-contact i {
-  margin-right: 0.5rem;
-  color: #0d6efd;
-}
 .logo-text {
   color: #2e8b57;
   font-weight: bold;
@@ -54,14 +22,14 @@ body, html {
   background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center; /* Center the navbar */
+  justify-content: center;
   align-items: center;
 }
 
 .navbar-brand {
   display: flex;
   align-items: center;
-  margin-right: auto; /* Align brand to the left */
+  margin-right: auto;
 }
 
 .navbar-brand h1 {
@@ -78,8 +46,8 @@ body, html {
 
 .navbar-nav {
   display: flex;
-  justify-content: center; /* Center the navbar links */
-  margin: 0 auto; /* Ensure links are centered */
+  justify-content: center; 
+  margin: 0 auto; 
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -105,7 +73,7 @@ body, html {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   font-weight: 600;
-  margin-left: auto; /* Align login button to the right */
+  margin-left: auto;
 }
 
 .btn-login:hover {
@@ -126,87 +94,7 @@ body, html {
 }
 
 
-/* For mobile view
-.navbar-toggler {
-  border: none;
-}
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 30 30'><path stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-}
-
-.collapse {
-  padding: 1rem 0;
-}
-
-.logo {
-  font-size: 2 rem;
-  font-weight: bold;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.nav-links li {
-  margin-left: 1rem;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #f0c040;
-}
-
-main {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.orchid-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.orchid-item {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.orchid-item:hover {
-  transform: translateY(-5px);
-}
-
-.orchid-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.orchid-item h2 {
-  font-size: 1.2rem;
-  margin: 1rem;
-}
-
-.orchid-item p {
-  margin: 0.5rem 1rem;
-  font-size: 0.9rem;
-}
-
-.orchid-item p:last-child {
-  margin-bottom: 1rem;
-} */
 body, #root {
   min-height: 100vh;
   width: 100%;
@@ -235,7 +123,7 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1200px; /* Adjust this value as needed */
+  max-width: 1200px; 
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -274,7 +162,7 @@ main {
 .position-relative {
   position: relative;
   width: 100%;
-  padding-bottom: 75%; /* Adjust this value to change the aspect ratio */
+  padding-bottom: 75%;
   overflow: hidden;
 }
 
@@ -322,7 +210,7 @@ main {
 
 .project-image-container {
   position: relative;
-  padding-top: 75%; /* 4:3 Aspect Ratio */
+  padding-top: 75%; 
 }
 
 .project-image {

@@ -54,15 +54,15 @@
     justify-content: flex-start;
     padding: 15px 0;
     gap: 20px;
-    flex-direction: row; /* Đảm bảo các icon nằm ngang */
-    box-shadow: none; /* Thêm dòng này */
+    flex-direction: row; 
+    box-shadow: none; 
     border: none;
     outline: none;
     box-shadow: none;
   }
   
   .socialContainer {
-    width: 55px;  /* Tăng kích thước container một chút */
+    width: 55px; 
     height: 55px;
     background-color: rgb(65, 29, 131);
     display: flex;
@@ -70,10 +70,10 @@
     justify-content: center;
     overflow: hidden;
     transition-duration: 0.3s;
-    border-radius: 10px;  /* Thay đổi từ 50% thành 10px để tạo góc bo tròn nhẹ */
-    border: none;  /* Thêm dòng này để loại bỏ border */
-    outline: none; /* Thêm dòng này để loại bỏ outline */
-    box-shadow: none; /* Thêm dòng này */
+    border-radius: 10px;  
+    border: none;  
+    outline: none; 
+    box-shadow: none; 
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
@@ -82,23 +82,23 @@
   .containerOne:hover {
     background-color: #d62976;
     transition-duration: 0.3s;
-    transform: scale(1.1);  /* Giảm scale từ 1.2 xuống 1.1 để hiệu ứng nhẹ nhàng hơn */
+    transform: scale(1.1);  
   }
   
   .containerTwo:hover {
-    background-color: #128C7E; /* Màu xanh lá cây đậm hơn khi hover */
+    background-color: #128C7E; 
     transition-duration: 0.3s;
     transform: scale(1.1);
   }
   
   .containerThree:hover {
-    background-color: #D44638; /* Màu đỏ của Gmail */
+    background-color: #D44638; 
     transition-duration: 0.3s;
-    transform: scale(1.1);  /* Giảm scale từ 1.2 xuống 1.1 để hiệu ứng nhẹ nhàng hơn */
+    transform: scale(1.1); 
   }
   
   .containerFour:hover {
-    background-color: #AD081B; /* Màu đỏ đậm hơn khi hover */
+    background-color: #AD081B; 
     transform: scale(1.1);
   }
   
@@ -108,11 +108,11 @@
   }
   
   .socialSvg {
-    width: 30px;  /* Tăng kích thước từ 25px lên 30px */
-    height: 30px; /* Thêm chiều cao để đảm bảo tỷ lệ */
-    border: none;  /* Thêm dòng này để đảm bảo SVG không có border */
-    outline: none; /* Thêm dòng này */
-    box-shadow: none; /* Thêm dòng này */
+    width: 30px;  
+    height: 30px; 
+    border: none; 
+    outline: none; 
+    box-shadow: none; 
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
@@ -123,7 +123,7 @@
   }
   
   .socialSvg.gmailSvg {
-    width: 24px; /* Điều chỉnh kích thước nếu cần */
+    width: 24px; 
     height: 24px;
   }
   
@@ -167,18 +167,18 @@
   
     .card {
       justify-content: flex-start;
-      flex-direction: row; /* Đảm bảo các icon vẫn nằm ngang trên mobile */
+      flex-direction: row; 
     }
   }
   
-  /* Thêm một rule mới để đảm bảo không có border hoặc outline trên các phần tử con */
+ 
   .socialContainer *, .socialSvg * {
     border: none;
     outline: none;
     box-shadow: none;
   }
   
-  /* Thêm rule mới này để đảm bảo không có border trên bất kỳ phần tử nào trong footer */
+
   .footer *, .footer *::before, .footer *::after {
     border: none !important;
     outline: none !important;
@@ -190,7 +190,7 @@
     height: 30px;
   }
   
-  /* Cập nhật kích thước cho biểu tượng điện thoại nếu cần */
+
   .socialSvg.phoneSvg {
     width: 24px;
     height: 24px;
